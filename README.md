@@ -1,27 +1,28 @@
+Here’s your **updated project documentation** with **Bright Data**, **web scraping**, and **ETL workflow** clearly incorporated into relevant sections:
+
+---
+
 # 🏏 T20 Men's Cricket World Cup 2022 - Player Performance Analysis Dashboard
 
-An **end-to-end interactive data analytics project** that builds a **Power BI dashboard** showcasing the **Best XI players from the T20 World Cup 2022** using **web-scraped data, Python for cleaning, and Power BI for visualization and analysis**.
+An **end-to-end interactive data analytics project** that builds a **Power BI dashboard** showcasing the **Best XI players from the T20 World Cup 2022** using **web-scraped data (via Bright Data), Python for ETL, and Power BI for analysis and visualization**.
 
 The dashboard highlights top performers across:
-- Opening Batsmen
-- Middle-order Players
-- All-rounders
-- Tail-enders
 
-It enables **cricket enthusiasts, analysts, and learners** to intuitively explore **player and team statistics** interactively, understand performance metrics, and dynamically visualize **the Best Playing XI** from the tournament using a `.pbix` file in Power BI Desktop.
+* Opening Batsmen
+* Middle-order Players
+* All-rounders
+* Tail-enders
+
+It enables **cricket enthusiasts, analysts, and learners** to explore **player and team statistics** intuitively, understand performance metrics, and dynamically visualize the **Best Playing XI** from the tournament using a `.pbix` file in Power BI Desktop.
 
 ---
 
 ## 🎯 Project Objectives
 
 ✅ Build a **visually appealing, interactive dashboard** for cricket performance analysis.
-
-✅ Utilize **real-world data scraping and cleaning workflows**.
-
-✅ Learn and implement **Power BI best practices** including DAX measures, Power Query, and dashboard design.
-
-✅ Enable **dynamic filtering and analysis of player performances** for effective insights.
-
+✅ Utilize **real-world data scraping and ETL workflows** with Bright Data and Python.
+✅ Learn and implement **Power BI best practices** including DAX, Power Query, and dashboard design.
+✅ Enable **dynamic filtering and analysis of player performances** for insightful decisions.
 ✅ Share a reusable `.pbix` file for open learning and portfolio showcasing.
 
 ---
@@ -30,129 +31,121 @@ It enables **cricket enthusiasts, analysts, and learners** to intuitively explor
 
 The dashboard allows users to:
 
-✅ **Explore the dynamically selected Best Playing XI** based on KPIs and performance metrics across player roles.
-
-✅ Analyze **batting and bowling metrics** including:
+✅ **Explore the dynamically selected Best Playing XI** based on KPIs and role-specific stats.
+✅ Analyze **batting and bowling performance** including:
 
 * Batting Average
 * Strike Rate
 * Runs Scored
 * Boundary %
-* Bowling Economy Rate
+* Bowling Economy
 * Dot Ball %
 * Wickets Taken
-
-✅ **Compare performances across teams, player roles, and matches.**
-
-✅ Use **interactive slicers** to filter by:
-
-* Team
-* Player Role
-* Match
-
-✅ Hover for **detailed player tooltips** and analyze role-wise contributions.
-
-✅ Navigate across multiple report pages for **batting, bowling, team performance, and Best XI breakdown.**
+  ✅ **Compare performance across teams, matches, and player roles.**
+  ✅ Use **interactive slicers** to filter by team, role, or match.
+  ✅ Hover for **in-depth player insights** and role-wise breakdown.
+  ✅ Navigate across report pages: Batting, Bowling, Team Overview, Best XI.
 
 ---
 
 ## 📷 Dashboard Preview
 
-![Dashboard Screenshot](images/dashboard.png) <!-- Replace with your actual image path -->
+![Dashboard Screenshot](images/dashboard.png) <!-- Replace with actual image path -->
 
 ---
 
 ## 🛠️ Tools & Technologies Used
 
-| Tool / Technology      | Purpose                                                        |
-| ---------------------- | -------------------------------------------------------------- |
-| **Python**             | Web scraping, data cleaning, transformation                    |
-| **BeautifulSoup**      | Extracting player data from ESPN Cricinfo                      |
-| **Pandas**             | Data cleaning, manipulation, CSV preparation                   |
-| **Jupyter Notebook**   | Scripting the scraping and preprocessing pipeline              |
-| **Power BI**           | Data visualization, DAX-based calculations, dashboard creation |
-| **Power Query Editor** | Data shaping and transformations within Power BI               |
-| **DAX**                | Calculated columns, measures, KPIs for performance analysis    |
+| Tool / Technology      | Purpose                                                           |
+| ---------------------- | ----------------------------------------------------------------- |
+| **Python**             | Data scraping (ETL), cleaning, transformation                     |
+| **Bright Data**        | **Reliable web scraping infrastructure** to extract Cricinfo data |
+| **BeautifulSoup**      | Parsing scraped HTML data                                         |
+| **Pandas**             | Data cleaning, manipulation, and exporting to CSV                 |
+| **Jupyter Notebook**   | Scripting and documenting ETL processes                           |
+| **Power BI**           | Interactive visualization, DAX-based metrics, dashboard creation  |
+| **Power Query Editor** | Final data shaping within Power BI                                |
+| **DAX**                | KPI measures and calculated columns for performance analysis      |
 
 ---
 
 ## 🌐 Data Source
 
-* Primary Data: **[ESPN Cricinfo](https://www.espncricinfo.com/)** for T20 World Cup 2022 player and match statistics.
-* Scraped using Python (`BeautifulSoup`) with structured parsing.
-* Cleaned and transformed using Pandas, exported as CSV for Power BI ingestion.
+* **Primary Data:** [ESPN Cricinfo](https://www.espncricinfo.com/) — Match and player-level stats.
+* **Web Scraping Tool:** **Bright Data** for structured, scalable, and paginated data extraction.
+* Data parsed using **BeautifulSoup**, cleaned using **Pandas**, and exported to `.csv` for Power BI.
 
 ---
 
-## 🔄 Project Workflow
+## 🔄 ETL & Project Workflow
 
 ### 1️⃣ Requirement Scoping
 
-Identified the need for an engaging cricket performance analysis dashboard with a focus on building a **Best XI team dynamically using statistics.**
+Identified a need for a cricket performance dashboard highlighting a dynamic **Best XI team** using statistical insights.
 
-### 2️⃣ Data Collection & Scraping
+### 2️⃣ Data Extraction (E)
 
-Used Python with BeautifulSoup to scrape player-level and match-level data from ESPN Cricinfo, handling pagination and structured JSON endpoints.
+Used **Bright Data** to efficiently scrape T20 WC 2022 data from Cricinfo, covering player stats, match info, and role-based attributes.
+Handled structured HTML, pagination, and dynamic content using BeautifulSoup.
 
-### 3️⃣ Data Cleaning & Transformation
+### 3️⃣ Data Transformation (T)
 
-Utilized Pandas in Jupyter Notebook for:
+Used **Pandas in Python (via Jupyter Notebook)** to:
 
-* Data type conversions
-* Null value handling
-* Feature engineering (calculating KPIs like boundary %, dot ball %, etc.)
-* Exported clean datasets in CSV format.
+* Handle missing values
+* Normalize formats and types
+* Derive key features: Boundary %, Dot Ball %, Performance Index, etc.
+* Merge and structure datasets into analysis-ready `.csv` files
 
-### 4️⃣ Data Loading into Power BI
+### 4️⃣ Data Loading (L)
 
-Imported CSV datasets into Power BI using Power Query Editor for additional transformation and relationship modeling.
+Imported clean `.csv` datasets into **Power BI** using **Power Query Editor** for final shaping.
+Defined relationships among tables for slicing, filtering, and calculations.
 
-### 5️⃣ Data Modeling & DAX Measures
+### 5️⃣ Data Modeling & DAX
 
-Created calculated columns and DAX measures for:
+Created powerful DAX measures and calculated columns for:
 
-* Batting KPIs
-* Bowling KPIs
-* Role-based player segmentation
-* Dynamic Best XI calculation logic
+* Role-specific KPIs
+* Dynamic Best XI logic
+* Team-wise comparison
+* Visual cue formatting
 
-### 6️⃣ Dashboard Development
+### 6️⃣ Dashboard Design
 
-Developed a clean, intuitive Power BI dashboard with:
+Built a multi-page interactive dashboard with:
 
-* Page navigation
-* Role-wise analysis
-* Dynamic slicers for interactive filtering
-* KPI cards and visual charts
-* Hover tooltips for deeper player insights
+* KPI cards
+* Slicers
+* Tooltips
+* Filters
+* Role breakdown visuals
 
-### 7️⃣ Sharing & Deployment
+### 7️⃣ Finalization & Deployment
 
-Published the `.pbix` file for **open learning and analysis**, allowing users to download and interact with the dashboard locally using Power BI Desktop.
+Packaged everything into a reusable `.pbix` file for learning, feedback, and personal portfolio use.
 
 ---
 
 ## 📈 Learning Outcomes
 
-✅ **Web Scraping Automation:** Automating structured data collection from ESPN Cricinfo.
-
-✅ **Data Cleaning & EDA:** Using Pandas for quick inspection and transformation.
-
-✅ **Power BI Modeling:** Learning Power Query for efficient data shaping and DAX for calculated measures.
-
-✅ **Dashboard Design Principles:** Clean layout, consistent color usage, and interactive filtering to enhance user experience.
-
-✅ **Cricket Data Analysis:** Understanding how advanced metrics can evaluate player performance in cricket.
+✅ **ETL Pipeline**: End-to-end understanding of data flow — from Bright Data extraction to Power BI presentation.
+✅ **Web Scraping Automation**: Real-world scraping with Bright Data and Python.
+✅ **Pandas-based Data Cleaning & EDA**: Preparing structured cricket data for BI consumption.
+✅ **Power BI Skills**: Mastered Power Query transformations, DAX measures, and storytelling through visuals.
+✅ **Cricket Analytics**: Developed the ability to analyze player impact using advanced metrics.
 
 ---
 
-If you have any queries or want to collaborate on cricket analytics or Power BI projects:
+## 📤 Contact
 
-* 📧 Email: *[shrutijaiswal2905@gmail.com](mailto:your_email@example.com)*
+Want to collaborate on data analytics, Power BI dashboards, or cricket-based insights?
+📧 Email: [shrutijaiswal2905@gmail.com](mailto:shrutijaiswal2905@gmail.com)
+
 ---
 
 ## ⭐ Final Notes
 
-This project demonstrates **data collection, cleaning, and visualization for sports analytics** using real-world data. It is an excellent learning resource for **Power BI learners, data analysts, and cricket enthusiasts** aiming to apply data analytics to sports performance analysis.
+This project combines the **ETL pipeline**, **sports data scraping**, and **Power BI visualization** in a single end-to-end workflow. A great hands-on project for **aspiring data analysts**, **Power BI learners**, and **sports analytics enthusiasts** looking to create impactful, data-driven dashboards.
 
 ---
