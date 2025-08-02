@@ -15,11 +15,11 @@ It enables **cricket enthusiasts, analysts, and learners** to explore **player a
 
 ## 🎯 Project Objectives
 
-✅ Build a **visually appealing, interactive dashboard** for cricket performance analysis.
-✅ Utilize **real-world data scraping and ETL workflows** with Bright Data and Python.
-✅ Learn and implement **Power BI best practices** including DAX, Power Query, and dashboard design.
-✅ Enable **dynamic filtering and analysis of player performances** for insightful decisions.
-✅ Share a reusable `.pbix` file for open learning and portfolio showcasing.
+ - Build a **visually appealing, interactive dashboard** for cricket performance analysis.
+ - Utilize **real-world data scraping and ETL workflows** with Bright Data and Python.
+ - Learn and implement **Power BI best practices** including DAX, Power Query, and dashboard design.
+ - Enable **dynamic filtering and analysis of player performances** for insightful decisions.
+ - Share a reusable `.pbix` file for open learning and portfolio showcasing.
 
 ---
 
@@ -37,10 +37,10 @@ The dashboard allows users to:
 * Bowling Economy
 * Dot Ball %
 * Wickets Taken
-  ✅ **Compare performance across teams, matches, and player roles.**
-  ✅ Use **interactive slicers** to filter by team, role, or match.
-  ✅ Hover for **in-depth player insights** and role-wise breakdown.
-  ✅ Navigate across report pages: Batting, Bowling, Team Overview, Best XI.
+  - ✅ **Compare performance across teams, matches, and player roles.**
+  - ✅ Use **interactive slicers** to filter by team, role, or match.
+  - ✅ Hover for **in-depth player insights** and role-wise breakdown.
+  - ✅ Navigate across report pages: Batting, Bowling, Team Overview, Best XI.
 
 ---
 
@@ -125,11 +125,11 @@ Packaged everything into a reusable `.pbix` file for learning, feedback, and per
 
 ## 📈 Learning Outcomes
 
-✅ **ETL Pipeline**: End-to-end understanding of data flow — from Bright Data extraction to Power BI presentation.
-✅ **Web Scraping Automation**: Real-world scraping with Bright Data and Python.
-✅ **Pandas-based Data Cleaning & EDA**: Preparing structured cricket data for BI consumption.
-✅ **Power BI Skills**: Mastered Power Query transformations, DAX measures, and storytelling through visuals.
-✅ **Cricket Analytics**: Developed the ability to analyze player impact using advanced metrics.
+- ✅ **ETL Pipeline**: End-to-end understanding of data flow — from Bright Data extraction to Power BI presentation.
+- ✅ **Web Scraping Automation**: Real-world scraping with Bright Data and Python.
+- ✅ **Pandas-based Data Cleaning & EDA**: Preparing structured cricket data for BI consumption.
+- ✅ **Power BI Skills**: Mastered Power Query transformations, DAX measures, and storytelling through visuals.
+- ✅ **Cricket Analytics**: Developed the ability to analyze player impact using advanced metrics.
 
 ---
 
