@@ -1,7 +1,3 @@
-Here’s your **updated project documentation** with **Bright Data**, **web scraping**, and **ETL workflow** clearly incorporated into relevant sections:
-
----
-
 # 🏏 T20 Men's Cricket World Cup 2022 - Player Performance Analysis Dashboard
 
 An **end-to-end interactive data analytics project** that builds a **Power BI dashboard** showcasing the **Best XI players from the T20 World Cup 2022** using **web-scraped data (via Bright Data), Python for ETL, and Power BI for analysis and visualization**.
