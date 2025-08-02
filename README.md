@@ -46,7 +46,7 @@ The dashboard allows users to:
 
 ## 📷 Dashboard Preview
 
-![Dashboard Screenshot](images/All_Rounder.png) <!-- Replace with actual image path -->
+![Dashboard Screenshot](Images/All_Rounder.png) <!-- Replace with actual image path -->
 
 ---
 
